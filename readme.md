@@ -2,7 +2,14 @@
 
 This was the 2013 AlphaZone4 April Fool's Day Joke.
 
-It is a tiny fully working browser-based MMO framework. You can change your avatar appearance, navigate multiple rooms of the world, and talk with other players.
+This is a tiny fully working browser-based MMO framework. It's not that great, but demonstrates my abundance of free-time when AlphaZone4 was active.
+
+Features:
+* Avatar Customiser
+* Multiple rooms to navigate between
+* Renders world from Tiled output
+* Streams in tileset images when needed by new avatar options or rooms needing new map tiles
+* Basic chat support (with emojis!)
 
 ![AlphaZone4 MMO Screenshot](https://github.com/AlphaZone4/AlphaZone4-MMO/raw/master/screenshot.png "AlphaZone4 MMO")
 
