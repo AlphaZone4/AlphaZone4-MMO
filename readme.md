@@ -1,17 +1,17 @@
-# CubeWorld #
+# AlphaZone4 Mini-MMO #
+
+This was the 2013 AlphaZone4 April Fool's Day Joke.
+
+It is a tiny fully working browser-based MMO framework. You can change your avatar appearance, navigate multiple rooms of the world, and talk with other players.
+
+![AlphaZone4 MMO Screenshot](https://github.com/AlphaZone4/AlphaZone4-MMO/raw/master/screenshot.png "AlphaZone4 MMO")
 
 ## Install ##
 
-Install Git (http://git-scm.com/)
-
-Clone this repo (shift-click folder and choose Git Bash to open command prompt after installing Git)
-
-Install Node.JS (http://nodejs.org/)
-
-Install dependancies (run this from root of checked out git repo)
+Install NodeJS, then install dependancies:
 
 ```
-  npm install
+  npm i
 ```
 
 ## Running Game ##
