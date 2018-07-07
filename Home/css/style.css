@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Patrick Hand SC';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Patrick Hand SC'), local('PatrickHandSC-Regular'), url(../img/Patrick+Hand.woff) format('woff');
+}
+
+.player {
+	position: absolute;
+    display: none;
+}
+
+.player .sprite {
+	background-image: URL('../avatars/ghost.png'); /* Loading ghost */
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+}
+
+.player .name {
+	position: absolute;
+	top: -8px;
+	width: 250px;
+	margin-left: -109px;
+	text-align: center;
+	font-size: 12px;
+	z-index: 1001; /* 1 above foreground */
+}
+
+body {
+	background: black;
+	overflow: hidden;
+	font-family: 'Patrick Hand SC', cursive;
+	color: white;
+}
+
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.layers {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#loading_screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 10000; /* above EVERYTHING */
+}
+
+.layer {
+	position: absolute;
+}
+
+.chat_box {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	z-index: 9000;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 16px;
+	color: white;
+}
+
+.chat_box:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.chat_box_top {
+	background-image: URL('../img/chat_top.png');
+	width: 300px;
+	height: 8px;
+}
+
+.chat_log {
+	background-image: URL('../img/chat_bg.png');
+	width: 292px;
+	min-height: 3px;
+	max-height: 200px;
+	overflow-y: scroll;
+	padding-left: 8px;
+}
+
+.chat_log::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.chat_log::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.chat_log::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.chat_box_bottom {
+	background-image: URL('../img/chat_bottom.png');
+	width: 300px;
+	height: 8px;
+}
+
+.chat_input {
+	width: 292px;
+	height: 26px;
+	background-image: URL('../img/chat_input.png');
+	background-repeat: no-repeat;
+	padding-left: 8px;
+	display: none;
+}
+
+.popup_back {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	background-image: URL('../img/popup_back.png');
+}
+
+.popup {
+	position: fixed;
+	top: 12px;
+	left: 50%;
+	width: 577px;
+	margin-left: -291px;
+	z-index: 10001;
+}
+
+.popup_top {
+	background-image: URL('../img/popup_top.png');
+	width: 577px;
+	height: 11px;
+}
+
+.popup_bottom {
+	background-image: URL('../img/popup_bottom.png');
+	width: 577px;
+	height: 11px;
+}
+
+.popup_content {
+	background-image: URL('../img/popup_bg.png');
+	width: 561px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.arrowleft {
+	width: 24px;
+	height: 24px;
+	background-image: URL('../img/arrowsleft.png');
+	display: inline-block;
+}
+
+.arrowleft:hover {
+	background-position: 0px -24px;
+}
+
+.arrowright {
+	width: 24px;
+	height: 24px;
+	background-image: URL('../img/arrowsright.png');
+	display: inline-block;
+}
+
+.arrowright:hover {
+	background-position: 0px -24px;
+}
+
+.arrowdisable {
+	background-position: 0px -72px ! important;
+}
+
+.butt {
+	background-image: URL('../img/button_small.png');
+	width: 71px;
+	height: 22px;
+	display: inline-block;
+	padding-top: 2px;
+	text-align: center;
+}
+
+.butt:hover {
+	background-position: 0px -28px;
+}

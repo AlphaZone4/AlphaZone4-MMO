@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <properties>
+  <property name="warp_1" value="Home_1_8"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/Specials.tsx"/>
+ <tileset firstgid="65" source="../Tilesets/LPC_terrain.tsx"/>
+ <tileset firstgid="1089" source="../Tilesets/Farm_Fishing.tsx"/>
+ <tileset firstgid="1489" name="TileD" tilewidth="32" tileheight="32">
+  <image source="../Random/tiled.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1745" name="TileB" tilewidth="32" tileheight="32">
+  <image source="../Random/tileb.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Void" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzzYWRg8BnFo3gUj+JRPIpJxAAFZ3hR
+  </data>
+ </layer>
+ <layer name="BG" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy7xcbAcIvKmJ2dgYEVCwaJs+EQRxcDqYOZx0JAHT778JmHSx0+dyH7A9k8YtyATxzZPFyYhUz30So+cPmDGH/jiw9s6vClAZg4sfFBKA2Qml6IsXMk+5fSvIHLfZSYS2x8kCJOL/eRay4pZTix6gFIRVs6
+  </data>
+ </layer>
+ <layer name="Items" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAO3GNlYLgPxLeA+DYQXwPi60B8A4j/AvE/ViINAoJbbAwM74Dq3wPxKyB+DcTPgPg5EL8AYl6gPB8bqp4SIL8UiMvYsJtHKmgB6mkF4jYqmTcFqGcqEE/DYx4nlOaC0txQmodE+2DmSUJpKSgtDaVlyDSPHJDAjt28b9D0AcLfgfgHNM1gA3nsEJwPxAVYzAOB56zY8WACO4H+3kVBWKKDk0CzTlHRvIEGk4FxOwVH/JICHlA5TD5QO4yp4Edk8B/qPl4c5q5kR6XpCQCIfzCU
+  </data>
+ </layer>
+ <layer name="Overlay" width="20" height="20">
+  <properties>
+   <property name="overlay" value="1000"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuMBPVgj9C0r/htJ/WOnrjqts9LVvpICVwHBdNYzCtpidgaGEnXrmNQPNaqGiecMV3AWmoXskpKOZ7Kg0OngLNOvdEEmXAGYzDTE=
+  </data>
+ </layer>
+ <layer name="Overlay2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFjAXTYGhnts1DPvLdCsd1Q0DxkAAN+PA68=
+  </data>
+ </layer>
+ <layer name="Collision" width="20" height="20" opacity="0.29">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQyJgRoYR4xANk8fOaTYx4rEsZlHjE0MeGAbCc2PrI4rcIPn15i45LY+KbEfbjU0cI8QuoH2jxi1NHSPGLNJ2QeJWYMBfNw5Qlc5hIjTyrmJFIdAG1SALM=
+  </data>
+ </layer>
+</map>

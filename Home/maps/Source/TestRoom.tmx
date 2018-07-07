@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="warp_1" value="Home_18_8"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/LPC_terrain.tsx"/>
+ <tileset firstgid="1025" source="../Tilesets/Specials.tsx"/>
+ <layer name="BG" width="70" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzrYGRg6CADawDxChJxOcPQweSGyUoS/VnEjB8PdDhQEi6wNEJqmAzncCEnjQzXcEEuQygJk+EULpSmj+EYLtQOk+EQLrQIk+EQLp00ameMhsvwwABtWUx5
+  </data>
+ </layer>
+ <layer name="Items" width="70" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwrZWJgKCUDlwExKSCUmYEhDAcOZybNLHqA6UzkY1JAKR6/lw/CcKEXGGnhwgbE7HgwB1TdSAsXNSBWx4M1oOpGw2U0XEDADYjd0bAmw2i4pAFxOhr2ZBgNlzYgbkfDmQyj4YINIJc5sHCZCvT7NBx4+iAMFwD5Eyru
+  </data>
+ </layer>
+ <layer name="Overlay" width="70" height="10">
+  <properties>
+   <property name="overlay" value="1000"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAPwaCvAAAQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGFgYKQTHkqAk07uHWrhQmqcsyJhUu0ZjgBXXkAPK3QM0zOcwoWY8oGQf4dbuBBbVo6kcCGl/oCp7WLAnraGS7iQWqfC1K9iGP7hQgqAla+nGDDLWmTzRlq4EDJjqIYLANIIBC4=
+  </data>
+ </layer>
+ <layer name="Bridge_Overlay" width="70" height="10">
+  <properties>
+   <property name="overlay" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF2EApE3m4jGmgXT4KRsEoGAWjYBSMglEwCpABAPg7Bvs=
+  </data>
+ </layer>
+</map>

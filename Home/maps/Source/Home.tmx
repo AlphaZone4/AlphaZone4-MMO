@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <properties>
+  <property name="warp_1" value="TestRoom_1_1"/>
+  <property name="warp_2" value="House_10_18"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/Specials.tsx"/>
+ <tileset firstgid="65" source="../Tilesets/LPC_terrain.tsx"/>
+ <tileset firstgid="1089" source="../Tilesets/Farm_Fishing.tsx"/>
+ <layer name="BG" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlNENgjAQhmuHVVzAMgHCIoITOIIwCbpA4dFLsMnlz1EOsIkP30t7/e6/pK2zxrSH9Vwi5zLitYMz+DriYbbzhGxvYvzuHWmOk4LMTvUD+DBbQXVXBaWV83Gf/7Fvbz5nJ9+QaN4UvhvV1Qoa5uvZHUQfnx0ZhTUPGYPPQ11N680Md+H+ow9dVeTtlkKPasa35FoCe0mu2F8SyDf+UxpSujWz/Wt2xLFeYa4PnWkdAA==
+  </data>
+ </layer>
+ <layer name="Items" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVkj9SwkAUhzcJ6UFAO6GBAN5B8RBSeAa4A3RApAQa/mjjBUwo9A6OFphOOAJcAPgywAhkRxNlGPnNfEV23/uStxshji8RXYgTiEIM4nAKZ/p23ZsixLvi7f/UhBjBWFs+p+hLgwEZyEIOLnZ8E1xTiW+GZ+66QsHmCKvMonrXz/EkIOnDd+2j5pKaK8j/UHvL/g0UvqkbSL43aCwc9gpnw1fkvaWAZ+jGUb9Y5xVPGSrw+AunLM94XiQuQ/euHTJN/r0WtDX/PSZz3EFDMs8Qzwc4AXx9PPfwsKez/m++KndcgzqY+t99HRxd6LkueMJjgb2neQ+VBSoxLLw=
+  </data>
+ </layer>
+ <layer name="Tents" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AJNLAwMzUDcwkId86YBzZkOxDOoZN4qoDmrgXgNlcxDB9E0MncUjIJRMDAAANMjBdM=
+  </data>
+ </layer>
+ <layer name="Overlay" width="20" height="20">
+  <properties>
+   <property name="overlay" value="1000"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBi+4AIjA8NFRkzxe8wMDPeB+AEzaeZ9AJr1EYt5/4Dm/AeZxYJffxNQvhmIWwiokwPKywOxAgF10wjIDwWwjQnBzgH6J5cMP20BmrEVikcieAgNs0hW6pj3FWieLzAsc6lkHgjkDoO4cQOGiwMwTD5QMd+FAM1joWI40xsAAKLnE9o=
+  </data>
+ </layer>
+ <layer name="Collision" width="20" height="20" opacity="0.29">
+  <data encoding="base64" compression="zlib">
+   eJzVkksKACAIBe2zqfsfOIIWEanPCqqBt7NJRUdE7oP0BCEzNJ+VUy5kVtSh9Yd4uR5Ozjv68oZvJDF/zO5Hgnu7M7+2P8v9S/WIqya2Wg/Wa31bfRwrPgnUh3LL92oKTTUBGg==
+  </data>
+ </layer>
+ <layer name="Vege_Overlay" width="20" height="20">
+  <properties>
+   <property name="overlay" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6QJCVgUEIiIWBWASIRYFYDIjFWQfaZaNgFIyCUTByAADIWgCw
+  </data>
+ </layer>
+ <layer name="Vege2" width="20" height="20">
+  <properties>
+   <property name="overlay" value="9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkATHWgXbBKBgFwwMAAF8/ABw=
+  </data>
+ </layer>
+</map>

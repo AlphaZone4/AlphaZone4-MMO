@@ -1,0 +1,21 @@
+{
+	"name": "Home2D",
+	"version": "0.0.1",
+	"dependencies": {
+		"connect": "^3.6.6",
+		"crypto": "*",
+		"mysql": "*",
+		"requirejs": "*",
+		"serve-static": "^1.13.2",
+		"socket.io": "^2.1.1",
+		"utf8": "*"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.2.x"
+	},
+	"subdomain": "cubehouse.home2d",
+	"scripts": {
+		"start": "index.js"
+	}
+}

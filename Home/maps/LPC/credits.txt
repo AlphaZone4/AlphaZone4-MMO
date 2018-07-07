@@ -1,0 +1,7 @@
+LPC from opengameart.org
+
+"Farming tilesets, magic animations and UI elements" by daneeklu (Daniel Eddeland)
+	http://opengameart.org/content/lpc-farming-tilesets-magic-animations-and-ui-elements
+	
+"[LPC] Pennomi's UI Elements" by pennomi
+	http://opengameart.org/content/lpc-pennomis-ui-elements
